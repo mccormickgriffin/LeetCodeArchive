@@ -1,0 +1,1 @@
+In order to merge these two arrays in O(n+m) time we need to start at the ends of the values that we are sorting and move backwards filling in over the extra zeroes. Starting at the front of the arrays makes this impossible because you have to shift back the other values of the first array in order to keep them intact for merging later.
